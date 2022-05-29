@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+#Food
+{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #0e6960), url(https://chupanhmonan.com/wp-content/uploads/2018/10/chup-anh-mon-an-chuyen-nghiep-tu-liam-min-min.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#menu
+{
+    width: 100%;
+    border: 1px solid #0e6960;
+    height: 100px;
+    background-color: #0f635a;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    z-index: 10000;
+}
+
+#menu ul
+{
+    margin-top: 42px;
+}
+
+#menu ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+#menu ul li a:link
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    /* padding-right: 50px; */
+}
+
+#menu ul li a:visited
+{ 
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover
+{
+   color: rgb(189, 137, 59);
+}
+
+.Food-text
+{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+    font-style: unset;
+}
+
+.Food-text h1
+{
+    font-size: 90px;
+}
+
+.Food-text p
+{
+    font-size: 40px;
+}
+
+#feature
+{
+    width: 100%;
+    padding: 70px 0;
+    margin-top: 60px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.feature-title
+{
+    margin-left: 160px;
+    font-style: unset;
+}
+
+.feature-title img
+{
+    margin-top: 50px;
+}
+
+#dish
+{
+    width: 100%;
+    padding: 40px 0;
+    background: rgb(246, 248, 248);
+    margin-top: 100px;
+}
+.title-text
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dish-box
+{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.dish-1
+{
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #FFF;
+    position: relative;
+}
+
+.dish-1 img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.dish-desc
+{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+hr{
+    background: rgb(255, 254, 254);
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.dish-1:hover .dish-desc{
+    bottom: 20%;
+    opacity: 1;
+}
+
+#drink
+{
+    margin-top: 100px;
+}
+
+#cake
+{
+    margin-top: 100px;
+}
+
+#sushi
+{
+    margin-top: 100px;
+}
+
+#menu-new ul li
+{
+    display: inline;
+    margin-left: 20px;
+}
+
+#content
+{
+    width: 100%;
+    padding: 100px 0 20px;
+    background: #efefef;
+}
+
+.content-text
+{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content-row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left h4
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.content-left ul li
+{
+    list-style-type: none;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.content-left a
+{
+    text-decoration: none;
+    color: rgb(24, 155, 179);
+}
+
+.content-right
+{
+    text-align: right;
+    margin-right: 100px;
+}
+
+.content-right h1
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.content-right p
+{
+    margin-top: 30px;
+    color: #0e6960;
+}
+
+.text-end
+{
+    text-align: center;
+    font-size: 30px;
+    color: #0e6960;
+}
